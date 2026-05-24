@@ -1,0 +1,17 @@
+# GUI Override for Ship Details
+
+# Add commission date to ship inspector
+containerWindowType = {
+	name = "ship_details"
+	position = { x = 0 y = 0 }
+	
+	element = {
+		name = "scd_commission_date"
+		position = { x = 10 y = 380 }
+		text = "[This.GetScdFormattedCommissionDate]"
+		tooltip = "scd_commission_date_tooltip"
+		font = "arial"
+		fontsize = 18
+		maxWidth = 300
+	}
+}
