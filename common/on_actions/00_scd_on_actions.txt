@@ -1,0 +1,10 @@
+on_action = {
+	effect = {
+		if = {
+			limit = { is_ship = yes }
+			set_variable = { which = scd_commission_year value = get_year }
+			set_variable = { which = scd_commission_month value = get_month }
+			set_variable = { which = scd_commission_day value = get_day }
+		}
+	}
+}
