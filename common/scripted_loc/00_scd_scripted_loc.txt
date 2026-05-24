@@ -1,0 +1,13 @@
+# Starship Commission Date - Scripted Localisation
+
+scd_commission_date_format = {
+	trigger = { always = yes }
+	text = {
+		trigger = {
+			has_variable = scd_commission_year
+		}
+		localisation_key = "scd_commissioned_date"
+	}
+}
+
+scd_commissioned_date = "Commissioned: [This.GetCommissionedDate]"
